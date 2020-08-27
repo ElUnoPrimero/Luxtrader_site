@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Template</title>
+	<link rel="stylesheet"  href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="container">
+				<div class="header_inner">
+					<div class="burger_menu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+					
+					<a href="#" class="header_image">
+						<img src="img/logo.png" alt=""/>
+					</a>
+					<div class="header_menu">
+						<nav class="menu" id="menu">
+							<ul class="menu_list">
+								<li><a href="#main" class="menu_link n_1">Главная</a></li>
+								<li><a href="#lots" class="menu_link n_2">Аукцион</a></li>
+								<li><a href="#article" class="menu_link n_3">О проекте</a></li>
+								<li><a href="#services" class="menu_link n_4">Партнерам</a></li>
+								<li><a href="#footer" class="menu_link n_5">Контакты</a></li>
+								<li class="hidden_region_mobile"><a href="#" class="menu_link region_mobile"><span>Выбор региона</span></a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header_actions">
+						<a href="#" class="header_actions_region">
+							<span>Выбор региона</span>
+						</a>
+						<div class="header_actions_user">
+
+							<div class="actions_user_icon">
+								<img src="img/user.png" alt=""/>
+							</div>
+
+							<ul class="actions_user_menu">
+								<li>
+									<a href="#" class="user_menu_link user_menu_link1">Выбор региона</a>
+								</li>
+								<li>
+									<a href="#" class="user_menu_link user_menu_link2">Личный кабинет</a>
+								</li>
+								<li>
+									<a href="#" class="user_menu_link user_menu_link3">Мои ставки</a>
+								</li>
+								<li>
+									<a href="#" class="user_menu_link user_menu_link4">Личные лоты</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="page">
+
+			<div class="main-slider block" id="main">
+				<div class="main-slider_body">
+					<div class="main-slider_item item-main-slider">
+						<div class="item-main-slider_content">
+							<div class="item-main-slider_container">
+								<div class="title">
+									<div class="title_item">Только эксклюзивные</div>
+									<div class="title_main title_main_w title_main_regular">Лоты под аукцион и свобоДную продажу</div>
+								</div>
+								<div class="item-main-slider_text">
+									Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный и автоматизированный сервис по покупке и продаже, а также выставлению лотов на аукцион, предоставляем личные кабинеты, а также оказываем сопутствубщие услуги с продажей редких и дорогих вещей 
+								</div>
+								<a href="#" class="item-main-slider_btn btn"><span class="btn_body"><span>Присоединиться</span></span></a>
+							</div>
+						</div>
+						<div class="item-main-slider_bg ibg">
+							<img data-lazy="img/01.jpg" alt=""/>
+						</div>
+					</div>
+					<div class="main-slider_item item-main-slider">
+						<div class="item-main-slider_content">
+							<div class="item-main-slider_container">
+								<div class="title">
+									<div class="title_item">Только эксклюзивные</div>
+									<div class="title_main title_main_w title_main_regular">Лоты под аукцион и свобоДную продажу</div>
+								</div>
+								<div class="item-main-slider_text">
+									Мы собираем эксклюзивную публику и экслюзивные лоты, эксклюзивную публику и экслюзивные лоты, эксклюзивную публику и экслюзивные лоты, даем удобный и автоматизированный сервис по покупке и продаже, а также выставлению лотов на аукцион, предоставляем личные кабинеты, а также оказываем сопутствубщие услуги с продажей редких и дорогих вещей, а также оказываем сопутствубщие услуги с продажей редких и дорогих вещей 
+								</div>
+								<a href="#" class="item-main-slider_btn btn"><span class="btn_body"><span>Присоединиться</span></span></a>
+							</div>
+						</div>
+						<div class="item-main-slider_bg ibg">
+							<img data-lazy="img/01.jpg" alt=""/>
+						</div>
+					</div>
+				</div><!---main-slider_body--->
+
+				<div class="main-slider_control control-main-slider">
+					<div class="control-main-slider_arrow control-main-slider_arrow_prev"></div>
+					<!---main-slider_prev arrow--->
+					<div class="control-main-slider_arrow control-main-slider_arrow_decor">
+						<img src="img/rotate.png" alt=""/>
+					</div>
+					<div class="control-main-slider_arrow control-main-slider_arrow_next"></div>
+					<!---main-slider_next arrow--->
+				</div><!---main-slider_control--->
+			</div>
+
+			<div class="lots block" id="lots">
+				<div class="container">
+					<div class="lots_header block-header">
+						<div class="block-header_title title">
+							<div class="title_item">Популярные</div>
+							<div class="title_main title_main title_main">Лоты под аукцион</div>
+						</div>
+						<div class="block-header_decor block-decor">
+							<div class="block-decor_items">
+								<span></span>
+							</div>
+							<div class="block-decor_icon">
+								<img src="img/01.png" alt="" />
+							</div>
+							<div class="block-decor_items">
+								<span></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="lots_slider slider-lots">
+						<div class="slider-lots_body">
+							<div class="slider-lots_slide">
+								<div class="lot">
+									<div class="lot_header">
+										<a href="" class="lot_image ibg">
+											<img src="img/001.jpg" alt=""/>
+										</a>
+										<div class="lot_timer timer-lot">
+											<div class="timer-lot_icon">
+												<img src="img/timer.svg" alt=""/>
+											</div>
+											<div class="timer-lot_item">	3:21:45:37
+											</div>
+										</div>
+									</div>
+									<a href="" class="lot_title">
+										Arnold & Son Worldtimer discovery of antarctica
+									</a>
+									<div class="lot_info info-lot">
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/eye.png" alt=""/>
+											</div>
+											<div class="info-lot_value">1098</div>
+										</div>
+										<div class="info-lot_current-bet current-bet-info-lot">
+											<div class="current-bet-info-lot_label">текущая ставка</div>
+											<div class="current-bet-info-lot_value">18 999 203</div>
+											<div class="current-bet-info-lot_currency">$</div>
+										</div>
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/hand.png" alt=""/>
+											</div>
+											<div class="info-lot_value">75</div>
+										</div>
+									</div>
+									<a href="" class="lot_btn btn btn_big">
+										<span class="btn_body"><span>Поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots_slide">
+								<div class="lot">
+									<div class="lot_header">
+										<a href="" class="lot_image ibg">
+											<img src="img/002.jpg" alt=""/>
+										</a>
+										<div class="lot_timer timer-lot">
+											<div class="timer-lot_icon">
+												<img src="img/timer.svg" alt=""/>
+											</div>
+											<div class="timer-lot_item">	3:21:45:37
+											</div>
+										</div>
+									</div>
+									<a href="" class="lot_title">
+										Chateau Lafite 1949
+									</a>
+									<div class="lot_info info-lot">
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/eye.png" alt=""/>
+											</div>
+											<div class="info-lot_value">1098</div>
+										</div>
+										<div class="info-lot_current-bet current-bet-info-lot">
+											<div class="current-bet-info-lot_label">текущая ставка</div>
+											<div class="current-bet-info-lot_value">245 050</div>
+											<div class="current-bet-info-lot_currency">$</div>
+										</div>
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/hand.png" alt=""/>
+											</div>
+											<div class="info-lot_value">75</div>
+										</div>
+									</div>
+									<a href="" class="lot_btn btn btn_big">
+										<span class="btn_body"><span>Поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots_slide">
+								<div class="lot">
+									<div class="lot_header">
+										<a href="" class="lot_image ibg">
+											<img src="img/003.jpg" alt=""/>
+										</a>
+										<div class="lot_timer timer-lot">
+											<div class="timer-lot_icon">
+												<img src="img/timer.svg" alt=""/>
+											</div>
+											<div class="timer-lot_item">	3:21:45:37
+											</div>
+										</div>
+									</div>
+									<a href="" class="lot_title">
+										Rolex Paul Newman Daytona
+									</a>
+									<div class="lot_info info-lot">
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/eye.png" alt=""/>
+											</div>
+											<div class="info-lot_value">1098</div>
+										</div>
+										<div class="info-lot_current-bet current-bet-info-lot">
+											<div class="current-bet-info-lot_label">текущая ставка</div>
+											<div class="current-bet-info-lot_value">18 999 203</div>
+											<div class="current-bet-info-lot_currency">$</div>
+										</div>
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/hand.png" alt=""/>
+											</div>
+											<div class="info-lot_value">75</div>
+										</div>
+									</div>
+									<a href="" class="lot_btn btn btn_big">
+										<span class="btn_body"><span>Поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots_slide">
+								<div class="lot">
+									<div class="lot_header">
+										<a href="" class="lot_image ibg">
+											<img src="img/001.jpg" alt=""/>
+										</a>
+										<div class="lot_timer timer-lot">
+											<div class="timer-lot_icon">
+												<img src="img/timer.svg" alt=""/>
+											</div>
+											<div class="timer-lot_item">	3:21:45:37
+											</div>
+										</div>
+									</div>
+									<a href="" class="lot_title">
+										Arnold & Son Worldtimer discovery of antarctica
+									</a>
+									<div class="lot_info info-lot">
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/eye.png" alt=""/>
+											</div>
+											<div class="info-lot_value">1098</div>
+										</div>
+										<div class="info-lot_current-bet current-bet-info-lot">
+											<div class="current-bet-info-lot_label">текущая ставка</div>
+											<div class="current-bet-info-lot_value">18 999 203</div>
+											<div class="current-bet-info-lot_currency">$</div>
+										</div>
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/hand.png" alt=""/>
+											</div>
+											<div class="info-lot_value">75</div>
+										</div>
+									</div>
+									<a href="" class="lot_btn btn btn_big">
+										<span class="btn_body"><span>Поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots_slide">
+								<div class="lot">
+									<div class="lot_header">
+										<a href="" class="lot_image ibg">
+											<img src="img/002.jpg" alt=""/>
+										</a>
+										<div class="lot_timer timer-lot">
+											<div class="timer-lot_icon">
+												<img src="img/timer.svg" alt=""/>
+											</div>
+											<div class="timer-lot_item">	3:21:45:37
+											</div>
+										</div>
+									</div>
+									<a href="" class="lot_title">
+										Chateau Lafite 1949
+									</a>
+									<div class="lot_info info-lot">
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/eye.png" alt=""/>
+											</div>
+											<div class="info-lot_value">1098</div>
+										</div>
+										<div class="info-lot_current-bet current-bet-info-lot">
+											<div class="current-bet-info-lot_label">текущая ставка</div>
+											<div class="current-bet-info-lot_value">245 050</div>
+											<div class="current-bet-info-lot_currency">$</div>
+										</div>
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/hand.png" alt=""/>
+											</div>
+											<div class="info-lot_value">75</div>
+										</div>
+									</div>
+									<a href="" class="lot_btn btn btn_big">
+										<span class="btn_body"><span>Поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+							<div class="slider-lots_slide">
+								<div class="lot">
+									<div class="lot_header">
+										<a href="" class="lot_image ibg">
+											<img src="img/003.jpg" alt=""/>
+										</a>
+										<div class="lot_timer timer-lot">
+											<div class="timer-lot_icon">
+												<img src="img/timer.svg" alt=""/>
+											</div>
+											<div class="timer-lot_item">	3:21:45:37
+											</div>
+										</div>
+									</div>
+									<a href="" class="lot_title">
+										Rolex Paul Newman Daytona
+									</a>
+									<div class="lot_info info-lot">
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/eye.png" alt=""/>
+											</div>
+											<div class="info-lot_value">1098</div>
+										</div>
+										<div class="info-lot_current-bet current-bet-info-lot">
+											<div class="current-bet-info-lot_label">текущая ставка</div>
+											<div class="current-bet-info-lot_value">18 999 203</div>
+											<div class="current-bet-info-lot_currency">$</div>
+										</div>
+										<div class="info-lot_stat">
+											<div class="info-lot_icon">
+												<img src="img/hand.png" alt=""/>
+											</div>
+											<div class="info-lot_value">75</div>
+										</div>
+									</div>
+									<a href="" class="lot_btn btn btn_big">
+										<span class="btn_body"><span>Поднять ставку</span></span>
+									</a>
+								</div>
+							</div>
+
+
+						</div>
+						<div class="slider-lots_control control-slider-lots">
+							<div class="control-slider-lots_arrow control-slider-lots_arrow_prev">
+								<span></span>
+							</div>
+							<a href="" class="control-slider-lots_link">Все лоты</a>
+							<div class="control-slider-lots_arrow control-slider-lots_arrow_next">
+								<span></span>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="categories">
+				<div class="container categories-container">
+					<div class="categories_inner">
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/001.png">
+								</div>
+								<div class="item_title">Часы</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/01.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/002.png">
+								</div>
+								<div class="item_title">Ювелирные изделия</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/02.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/003.png">
+								</div>
+								<div class="item_title">Автотранспорт и лодки</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/03.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/004.png">
+								</div>
+								<div class="item_title">Аксессуары</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/04.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/005.png">
+								</div>
+								<div class="item_title">Недвижимость</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/05.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/006.png">
+								</div>
+								<div class="item_title">Hi-tech</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/06.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/007.png">
+								</div>
+								<div class="item_title">Одежда и обувь</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/07.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/008.png">
+								</div>
+								<div class="item_title">Предметы искусства</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/08.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+						<div class="categories_col">
+							<div class="categories_item item">
+								<a href="" class="item_link"></a>
+								<div class="item_icon">
+									<img src="img/categories/009.png">
+								</div>
+								<div class="item_title">Алкоголь и еда</div>
+								<div class="item_decor">
+									<img src="img/categories/decor_mini.svg" alt=""/>
+								</div>
+								<div class="item_bg ibg">
+									<img src="img/categories/09.png" alt=""/>
+								</div>
+							</div>
+							<div class="categories_decor">
+								<span></span>
+							</div>
+						</div><!---category_col--->
+					</div>
+				</div>
+			</div>
+
+			<div class="article block" id="article">
+				<div class="container">
+					<div class="article_content">
+						<div class="article_image"></div>
+						<div class="article_text">
+							<p>Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты. Аукцион по продаже недвижимости во многих развитых странах являюется основным инструментом купли-продажи коммерческой, жилой, и муниципальной недвижимости, в том числе квартир. Общий объем сделок в мире на аукционах по продаже недвижимости варьируется от 30% до 80%. Для России аукцион недвижимости является относительно новым и обретает все большую популярность.</p>
+							<p>Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты.</p>
+							<p>Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты. Для России аукцион недвижимости является относительно новым и обретает все большую популярность.</p>
+							<p>Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты.</p>
+							<p>Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты. Аукцион по продаже недвижимости во многих развитых странах являюется основным инструментом купли-продажи коммерческой, жилой, и муниципальной недвижимости, в том числе квартир. Общий объем сделок в мире на аукционах по продаже недвижимости варьируется от 30% до 80%. Для России аукцион недвижимости является относительно новым и обретает все большую популярность.</p>
+							<p>Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты. Для России аукцион недвижимости является относительно новым и обретает все большую популярность.</p>
+							<p>Мы рады приветствовать вас на уникальной Лакшери аукционе, здесь вы сможете найти достойные для себя лоты. Для России аукцион недвижимости является относительно новым и обретает все большую популярность.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="services block" id="services">
+				<div class="container">
+					<div class="services_header block-header">
+						<div class="block-header_title title">
+							<div class="title_item">Дополнительные</div>
+							<div class="title_main title_main_w">Услуги</div>
+						</div>
+						<div class="block-header_decor block-decor">
+							<div class="block-decor_items">
+								<span></span>
+							</div>
+							<div class="block-decor_icon">
+								<img src="img/services/settings.png" alt="" />
+							</div>
+							<div class="block-decor_items">
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="services_inner">
+						<div class="services_col">
+							<div class="services_item item-services">
+								<a href="" class="item-services_image">
+									<img src="img/services/01.png" alt=""/>
+								</a>
+								<a href="" class="item-services_title">Экспертная оценка</a>
+								<div class="item-services_text">Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный</div>
+								<a href="" class="item-services_btn btn"><span>Подробнее</span></a>
+							</div>
+						</div><!---services_col--->
+						<div class="services_col">
+							<div class="services_item item-services">
+								<a href="" class="item-services_image">
+									<img src="img/services/02.png" alt=""/>
+								</a>
+								<a href="" class="item-services_title">Заказ комплектующих</a>
+								<div class="item-services_text">Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный</div>
+								<a href="" class="item-services_btn btn"><span>Подробнее</span></a>
+							</div>
+						</div><!---services_col--->
+						<div class="services_col">
+							<div class="services_item item-services">
+								<a href="" class="item-services_image">
+									<img src="img/services/03.png" alt=""/>
+								</a>
+								<a href="" class="item-services_title">Ремонт и реставрация</a>
+								<div class="item-services_text">Мы собираем эксклюзивную публику и экслюзивные лоты, даем удобный</div>
+								<a href="" class="item-services_btn btn"><span>Подробнее</span></a>
+							</div>
+						</div><!---services_col--->
+					</div>
+				</div>
+			</div>
+
+			<div class="quotes">
+				<div class="container">
+					<div class="quotes_header block-header">
+						<div class="block-header_title title">
+							<div class="title_item">Интересные</div>
+							<div class="title_main">Цитаты</div>
+						</div>
+						<div class="block-header_decor block-decor">
+							<div class="block-decor_items">
+								<span></span>
+							</div>
+							<div class="block-decor_icon">
+								<img src="img/03.png" alt="" />
+							</div>
+							<div class="block-decor_items">
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="quotes_slider slider-quotes">
+						<div class="slider-quotes_body">
+							<div class="slider-quotes_slide">
+								<div class="slider-quotes_image">
+									<img src="img/mark.png" alt=""/>
+								</div>
+								<div class="slider-quotes_content">
+									<div class="slider-quotes_title">«Легче одурачить людей, чем убедить их в том, что они одурачены»</div>
+									<div class="slider-quotes_info">
+										<p>Марк Твен</p>
+										<p>1935 -1910</p>
+									</div>
+								</div>
+							</div><!---slider-quotes_slide--->
+							<div class="slider-quotes_slide">
+								<div class="slider-quotes_image">
+									<img src="img/mark.png" alt=""/>
+								</div>
+								<div class="slider-quotes_content">
+									<div class="slider-quotes_title">«Легче одурачить людей, чем убедить их в том, что они одурачены, и легче одурачить людей, чем убедить их в том, что они одурачены»«Легче одурачить людей, чем убедить их в том, что они одурачены, и легче одурачить людей, чем убедить их в том, что они одурачены»</div>
+									<div class="slider-quotes_info">
+										<p>Марк Твен</p>
+										<p>1935 -1910</p>
+									</div>
+								</div>
+							</div><!---slider-quotes_slide--->
+						</div>
+						<div class="slider-quotes_control control-quotes">
+							<div class="control-quotes_decor"></div>
+							<div class="control-quotes_link">
+								<div class="control-quotes_circle"></div>
+							</div>
+							<div class="control-quotes_decor"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="info">
+				<div class="container">
+					<div class="info_inner">
+						<div class="info_col">
+							<div class="info_item">
+								<h3 class="info_title title-info">
+									<span><img src="img/news.svg" alt=""/></span>
+									<span>Новости</span>
+								</h3>
+								<div class="info_content">
+									<div class="info_content_item">
+										<div class="info_date">12.07.19</div>
+										<a href="" class="info_label">
+											Уникальной Лакшери аукционе, здесь вы сможете найти
+										</a>
+										<div class="info_text">
+											Продажа товаров, ценных бумаг, имущества предприятий, произведений искусства и других объектов, которая...
+										</div>
+									</div><!---info_content_item--->
+									<div class="info_content_item">
+										<div class="info_date">09.05.20</div>
+										<a href="" class="info_label">
+											Достойные для себя лоты
+										</a>
+										<div class="info_text">
+											Имущества предприятий, произведений искусства и других объектов, произведений редприятий, произведений искусств...
+										</div>
+									</div><!---info_content_item--->
+									<div class="info_content_item">
+										<div class="info_date">14.06.20</div>
+										<a href="" class="info_label">
+											Уникальной Лакшери аукционе, здесь вы сможете найти
+										</a>
+										<div class="info_text">
+											Продажа товаров, ценных бумаг, имущества предприятий, произведений искусства и других объектов, которая...
+										</div>
+									</div><!---info_content_item--->
+								</div>
+							</div>
+						</div><!--info_col--->
+						<div class="info_col">
+							<div class="info_item">
+								<h3 class="info_title title-info">
+									<span><img src="img/flag.png" alt=""/></span>
+									<span>Статьи</span>
+								</h3>
+								<div class="info_content">
+									<div class="info_content_item">
+										<a href="" class="info_label">
+											Уникальной Лакшери аукционе, здесь вы сможете найти
+										</a>
+										<div class="info_text">
+											Продажа товаров, ценных бумаг, имущества предприятий, произведений искусства и других объектов, которая...
+										</div>
+									</div><!---info_content_item--->
+									<div class="info_content_item">
+										<a href="" class="info_label">
+											Достойные для себя лоты
+										</a>
+										<div class="info_text">
+											Имущества предприятий, произведений искусства и других объектов, произведений редприятий, произведений искусств...
+										</div>
+									</div><!---info_content_item--->
+								</div>
+							</div>
+						</div><!--info_col--->
+						<div class="info_col">
+							<div class="info_subscribe subscribe">
+								<h3 class="subscribe_title title-info">
+									<span><img src="img/subscribe.svg" alt=""/></span>
+									<span>Подписка</span>
+								</h3>
+								<div class="subscribe_body">
+									<div class="subscribe_col">
+										<div class="subscribe_text">
+											Для получения уведомлений о новых предложениях, введите адрес своей электронной почты
+										</div>
+									</div>
+									<div class="subscribe_col">
+										<form action="#" class="subscribe_form form-subscribe">
+											<div class="form-subscribe_input">
+												<input placeholder="Введите ваш e-mail" autocomplete="off"  type="text" name="form[]" data-value=""/>
+											</div>
+											<button class="form-subscribe_btn" type="button">
+												<span>Ok</span>
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div><!--info_col--->
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<footer class="footer block" id="footer">
+			<div class="container">
+				<div class="footer_inner">
+					<div class="footer_col">
+						<a class="footer_logo" href="">
+							<img src="img/logo.png" alt=""/>
+						</a>
+						<div class="footer_info-one">Все права защищены © 2020</div>
+					</div>
+					<div class="footer_col">
+						<nav class="footer_menu">
+							<ul class="footer_list">
+								<li>
+									<a class="footer_link" href="">Главная</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Аукцион</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">О проекте</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Партнерам</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Контакты</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Новости</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">FAQ</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Реклама</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Соглашения</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Регистрация</a>
+								</li>
+								<li>
+									<a class="footer_link" href="">Услуги</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="footer_col">
+						<div class="footer_contacts">
+							<a class="footer_phone" href="tel:+7495222222">
+								<small>+7</small>(495) 22-22-22
+							</a>
+							<a class="footer_callback" href="#">
+								<span>Обратная связь</span>
+							</a>
+						</div>
+						<div class="footer_info-two">Все права защищены © 2020</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+	</div>
+
+<!------------------------------------>
+<script src="js/ibg.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+    
+</html>
